@@ -1,4 +1,4 @@
-const { gql } require('apollo-server');
+const { gql } = require('apollo-server');
 
 "A type of Author"
 const typeDefs = gql`
