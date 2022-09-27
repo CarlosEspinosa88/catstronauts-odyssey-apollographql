@@ -9,6 +9,7 @@ const typeDefs = gql`
 
   "A track is a group of Modules that teaches about a specific topic"
   type Track {
+    "The ID track's"
     id: ID!
     "The track's title"
     title: String!
@@ -23,7 +24,8 @@ const typeDefs = gql`
   }
 
   "Author of a complete Track or a Module"
-  type Author { 
+  type Author {
+    "The ID author's"
     id: ID!
     "Author's first and last name"
     name: String!
